@@ -32,7 +32,7 @@ body{
 
 #search_div_middle{
     display: flex;
-    width: 50%;
+    width: 44%;
     justify-content:space-between;
     align-items: center;
     /* background-color: chartreuse; */
@@ -43,12 +43,12 @@ body{
     align-items: center;
     justify-content: space-between;
     height: 100%;
-    width: 90%;
-    /* background-color: yellow; */
+    width: 85%;
+    background-color: gray;
 }
 #search_input{
     height: 67%;
-    width: 80%;
+    width: 85%;
     /* background-color: aquamarine; */
     border-left: none;
     border-right: none;
@@ -92,7 +92,7 @@ body{
     width: 13%;
     justify-content: space-around;
     align-items: center;
-
+    /* background-color: red; */
 }
 #user_span{
     border-radius: 47%;
@@ -102,6 +102,11 @@ body{
 }
 #user_span:hover{
     cursor: pointer;
+}
+
+#olustur{
+    padding: 20px;
+    /* background-color: red; */
 }
 
 #olustur:hover{
@@ -358,12 +363,14 @@ footer{
     justify-content:space-evenly;
     
  }
- #footer_left{
+ #footer_left {
     width: 50%;
     height: 350px;
     background-color: aqua;
     /* display: flex; */
     font-size: 20px;
+    /* text-decoration: none; */
+
  
     
     
