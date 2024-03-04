@@ -32,20 +32,33 @@ body{
     padding: 8px;
 }
 
+
 #div_middle{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 45%;
     height: 50%;
-    border: 1px solid grey;
+    border: 1px solid;
     border-radius: 30px;    
-    background-color: #b2b2b2;
+    /* background-color: #b2b2b2; */
+    /* justify-content: space-between; */
+    /* background-color: yellow; */
+   
+  
 } 
+#middle_middle{
+    display: flex;
+    width: 100%;
+    height: 100%;
+  
+}
+
 #middle_input{
     height: 95%;
-    width: 90%;
+    width: 100%;
     border: none;
+   
    
 }
 #div_middle_left{
@@ -56,12 +69,16 @@ body{
     width: 10%;
 }
 
+
 #div_middle_right{
     display: flex;
     justify-content: center;
     align-items: center;
     /* background-color: yellow; */
     width: 10%;
+  
+    
+  
 }
 
 #search_div_right{
@@ -223,6 +240,7 @@ body{
     height: 100%;
     justify-content: space-between;
     align-items: center; 
+    padding-left: 20px;
 }
 
 button{
